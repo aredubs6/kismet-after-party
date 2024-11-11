@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react';
 
 export default defineConfig({
   plugins: [react()],
-  base: '/kismet-after-party/',
+  base: '/kismet-after-party/', // Replace with your repository name
   optimizeDeps: {
     exclude: ['lucide-react'],
   },
